@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #007D7D;
+}
+
+.main-page{
+    padding:3%;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-links ul{
+display: flex;
+list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 12px;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0 10px;
+}
+
+a:after {
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 81, 110);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -10px;
+    transition:0.6s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.nav-links li a :hover:after {
+    width: 100%;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 23px;
+}
+
+.nav-links li a :hover {
+    color: blue;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    flex-basis: 50%%
+}
+
+.col-1 p {
+    font-weight: bold;
+}
+
+.col-1 h1 {
+    margin-top: 120px;
+}
+
+.col-2 img {
+    width: 500px;
+    border-radius: 250%;
+    margin-left: 7em;
+}
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+
+}
+
+span {
+    color: white;
+    font-weight: bold;
+}
+
+.skills svg {
+    width: 120px;
+    margin: 30px 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px black;
+    border:solid black;
+    border-width: 3px;
+    padding: 20px;
+    
+}
+
+
+.skill h1 {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.info-container img {
+width: 375px;
+height: 375px;
+margin-right: 35px;
+cursor: pointer;
+}
+
+.info-container {
+    display: flex;
+    margin: 100px 20px;
+    color: white;
+}
+
+.info-description {
+    margin-top: 30px;
+}
+
+.info-description h1{
+margin-bottom: 24px;
+}
+
+.contact-container{
+border: 2px solid;
+padding: 12em;
+width: 50em;
+background-color: whitesmoke;
+}
+
+.contact-container input {
+display: flex;
+align-items: center;
+justify-content:center;
+margin: 20px;
+padding: 6px;
+width: 25em;
+border: 2px solid;
+}
+.message-box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.message-text h2 {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.message-box input{
+ padding: 12em;
+ border: 2px solid;
+ width: 60em;
+ 
+}
+
+
+
+
+
